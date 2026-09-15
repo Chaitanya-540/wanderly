@@ -1,0 +1,879 @@
+{
+  "pbtResults": {
+    "2.2 Write property test for MoodTag set size (Property 8)": {
+      "status": "passed",
+      "lastRunTimestamp": 1789453384226
+    },
+    "4.6 Write property test for currency round-trip (Property 28)": {
+      "status": "passed",
+      "lastRunTimestamp": 1789456086382
+    },
+    "4.4 Write property test for `resolveCollisions` (Property 3)": {
+      "status": "passed",
+      "lastRunTimestamp": 1789456091118
+    },
+    "4.2 Write property test for `haversineDistance` and `findNearby` (Property 17)": {
+      "status": "passed",
+      "lastRunTimestamp": 1789456125458
+    }
+  },
+  "executionHistory": {
+    "1.1 Initialise Next.js 14 App Router project with TypeScript strict mode, Tailwind CSS, ESLint, and Prettier": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452242488
+      },
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452278330
+      },
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452802416
+      }
+    ],
+    "1.2 Install and pin all required dependencies": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452242839
+      },
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452278780
+      },
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452802965
+      }
+    ],
+    "1.3 Configure Vitest with jsdom environment and path aliases matching tsconfig": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452243041
+      },
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452279231
+      },
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452803609
+      }
+    ],
+    "2.1 Create all TypeScript interfaces in `src/types/`": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452243239
+      },
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452813617
+      },
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452909681
+      }
+    ],
+    "2.2 Write property test for MoodTag set size (Property 8)": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452243367
+      },
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452915657
+      },
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789453515993
+      }
+    ],
+    "3.1 Create `src/data/moodTags.ts` with exactly 10 tags enforced at compile time via `satisfies`": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452243459
+      },
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452916252
+      },
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789453517131
+      }
+    ],
+    "3.2 Create `src/data/categoryColors.ts` — one distinct hex colour per `AttractionCategory`": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452243566
+      },
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452916611
+      },
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789453517584
+      }
+    ],
+    "3.3 Create `src/data/costOfLiving.ts` with `StateCostData` interface and `STATE_COST_DATA` covering all 28 states + 8 UTs (realistic 2024 INR values)": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452243686
+      },
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452917561
+      },
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789453519654
+      }
+    ],
+    "3.4 Create `src/data/cities.ts` — major Indian cities with `{ lat, lng }` coordinates used as Budget Estimator origins": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452243774
+      },
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452918037
+      },
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789453519488
+      }
+    ],
+    "3.5 Create `src/data/attractions.ts` — full dataset of ≥84 attractions (≥3 per state, all 28 states), each with `id`, `name`, `city`, `state`, `district`, `category`, `moodTags`, `coordinates`, `description`, `highlights`, `insiderTips`, `itineraries` (all 8 day×profile combos), `popularityScore`, `nearbyRadius`": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452243859
+      },
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789453525313
+      }
+    ],
+    "4.1 Implement `src/utils/geo.ts` — `haversineDistance`, `findNearby`, `projectToXZ` (Mercator-like projection for 3D map)": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452243956
+      },
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789453527050
+      },
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789455985207
+      }
+    ],
+    "4.2 Write property test for `haversineDistance` and `findNearby` (Property 17)": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452244045
+      },
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789455993236
+      }
+    ],
+    "4.3 Implement `src/utils/collision.ts` — `LabelRect` interface, `resolveCollisions` sweep-line algorithm": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452244137
+      },
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789453526482
+      },
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789455986047
+      }
+    ],
+    "4.4 Write property test for `resolveCollisions` (Property 3)": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452244277
+      },
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789455993905
+      }
+    ],
+    "4.5 Implement `src/utils/currency.ts` — INR ↔ USD/EUR conversion helpers": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452244409
+      },
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789453525822
+      },
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789455986480
+      }
+    ],
+    "4.6 Write property test for currency round-trip (Property 28)": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452244506
+      },
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789455994487
+      }
+    ],
+    "5. Checkpoint — ensure types, data, and utilities compile and tests pass": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452244595
+      }
+    ],
+    "6.1 Implement `src/store/mapStore.ts` — `activeAttractionId`, `setActiveAttraction`, `cameraTarget`, `setCameraTarget`, `isAnimating`, `setIsAnimating`": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452244679
+      },
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789455995082
+      }
+    ],
+    "6.2 Implement `src/store/filterStore.ts` — `activeMoods`, `toggleMood`, `clearMoods`, `activeCategory`, `setActiveCategory`, `activeState`, `setActiveState`, `searchQuery`, `setSearchQuery`": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452244806
+      },
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789455996015
+      }
+    ],
+    "6.3 Implement `src/store/uiStore.ts` — panel open/close state, modal state, active destination card": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452245402
+      }
+    ],
+    "7.1 Implement `src/hooks/useFavorites.ts` — `Set<string>` in localStorage, `toggle`, `isFavorite`, `storageAvailable` flag": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452245614
+      }
+    ],
+    "7.2 Write property test for `useFavorites` toggle inverse (Property 14) and localStorage round-trip (Property 29)": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452245758
+      }
+    ],
+    "7.3 Implement `src/hooks/useTripPlanner.ts` — `Trip[]` in localStorage, `saveTrip`, `deleteTrip`": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452245921
+      }
+    ],
+    "7.4 Write property test for trip persistence round-trip (Property 25)": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452246123
+      }
+    ],
+    "7.5 Implement `src/hooks/useLocalProfile.ts` — `LocalProfile` in localStorage, `setProfile`, `storageAvailable` flag": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452246278
+      }
+    ],
+    "7.6 Write property test for local profile persistence round-trip (Property 30)": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452246406
+      }
+    ],
+    "8.1 Implement `src/services/popularityRanker.ts` — `rankByPopularity` using `popularityScore` descending sort": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452246530
+      }
+    ],
+    "8.2 Write property test for Popular Attractions Panel ordering (Property 12)": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452246682
+      }
+    ],
+    "8.3 Implement `src/services/itineraryGenerator.ts` — look up authored itinerary first; fallback constructs from named nearby places (never generic)": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452246829
+      }
+    ],
+    "8.4 Write property test for itinerary day count (Property 24)": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452246968
+      }
+    ],
+    "8.5 Implement client-side `searchAttractions` function in `src/components/discovery/Search.tsx` — case-insensitive substring match across name, city, state, district; return ≤10 results within 300 ms debounce": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452247099
+      }
+    ],
+    "8.6 Write property test for search result matching (Property 6)": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452247233
+      }
+    ],
+    "9.1 Implement `src/services/budgetCalculator.ts` — `validateBudgetInput`, `selectTransportMode` (Haversine-driven), `calculateTransportCost` (per-km rates), full `calculateBudget` assembling all five cost components from `STATE_COST_DATA`": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452247356
+      }
+    ],
+    "9.2 Write property test for budget input validation (Property 26)": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452247501
+      }
+    ],
+    "9.3 Write property test for transport cost varies with distance (Property 27)": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452247716
+      }
+    ],
+    "10. Checkpoint — ensure all services and hooks compile and tests pass": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452248043
+      }
+    ],
+    "11.1 Create `src/services/imageResolver/relevanceFilter.ts` — `tokenise` helper, `applyRelevanceFilter` (score ≥ 0.1 threshold)": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452248393
+      }
+    ],
+    "11.2 Write property test for relevance filter rejection (Property 19)": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452248515
+      }
+    ],
+    "11.3 Create `src/services/imageResolver/licenseValidator.ts` — `applyLicenseValidator` accepting CC-BY, CC-BY-SA, CC0, Unsplash License, Pexels License only": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452248636
+      }
+    ],
+    "11.4 Write property test for license validator rejection (Property 20)": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452248755
+      }
+    ],
+    "11.5 Create `src/services/imageResolver/wikimedia.ts` — Wikimedia Commons API adapter returning `RawImageCandidate[]`": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452248873
+      }
+    ],
+    "11.6 Create `src/services/imageResolver/unsplash.ts` — Unsplash API adapter (server-only, key from `process.env`)": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452249174
+      }
+    ],
+    "11.7 Create `src/services/imageResolver/pexels.ts` — Pexels API adapter (server-only, key from `process.env`)": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452249457
+      }
+    ],
+    "11.8 Create `src/services/imageResolver/index.ts` — pipeline orchestrator: in-process 24h cache, `Promise.allSettled` parallel fetch, relevance filter, license validator, cross-contamination deduplication via global `assignedUrls` Set, manifest assembly with `insufficientImages` flag": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452249677
+      }
+    ],
+    "11.9 Write property tests for manifest invariants (Properties 15, 21, 22, 23)": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452249879
+      }
+    ],
+    "11.10 Create `src/app/api/images/[id]/route.ts` — Next.js Route Handler calling `resolveImages`, returning JSON with `Cache-Control: s-maxage=86400, stale-while-revalidate`": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452250011
+      }
+    ],
+    "11.11 Create `src/app/api/exchange-rates/route.ts` — currency rate proxy returning latest INR/USD and INR/EUR rates; falls back to hiding toggle when unavailable": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452250130
+      }
+    ],
+    "12.1 Create `src/components/ui/NavBar.tsx` — sticky top nav with links to Quick List, Trip Planner, Favorites, Account; keyboard-navigable, `aria-label` on nav element, visible focus rings": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452250250
+      }
+    ],
+    "12.2 Create `src/components/ui/AttributionBlock.tsx` — displays author name, licence name, and clickable source attribution URL": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452250374
+      }
+    ],
+    "12.3 Create `src/components/ui/ImageWithFallback.tsx` — wraps `next/image`; shows skeleton while loading, \"Image currently unavailable\" placeholder on error; never shows a different attraction's image": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452250506
+      }
+    ],
+    "12.4 Create `src/components/ui/SkeletonCard.tsx` — animated loading skeleton matching DestinationCard dimensions": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452250675
+      }
+    ],
+    "12.5 Create `src/components/ui/WebGLFallback.tsx` — static fallback map image with `role=\"img\"` and descriptive `aria-label`": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452250978
+      }
+    ],
+    "13.1 Add India GeoJSON file to `public/data/india-states.geojson` (Natural Earth or Datameet India source)": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452251092
+      }
+    ],
+    "13.2 Create `src/components/map/StateLayer.tsx` — load GeoJSON, project coordinates via `projectToXZ`, render extruded `ShapeGeometry` meshes with emissive `LineSegments` border glow": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452251687
+      }
+    ],
+    "13.3 Write property test for GeoJSON bounds validation (Property 1)": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452252205
+      }
+    ],
+    "13.4 Create `src/components/map/StateLabelLayer.tsx` — billboard `<Text>` labels at state centroids; reads camera distance from `useThree()`; calls `resolveCollisions` to hide lower-priority overlapping labels": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452252758
+      }
+    ],
+    "14.1 Create `src/components/map/AttractionMarker.tsx` — `SphereGeometry` + `RingGeometry` pulse animation via `useFrame`; `MeshStandardMaterial` with `emissive` from `categoryColors`; `onPointerEnter/Leave` tooltip via `<Html>`; `onClick` → `mapStore.setActiveAttraction`; opacity driven by `filterStore.activeMoods`": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452253314
+      }
+    ],
+    "14.2 Write property tests for marker count and category colour (Properties 4, 5, 9, 10)": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452253919
+      }
+    ],
+    "14.3 Create `src/components/map/AttractionLayer.tsx` — maps full attractions array to `<AttractionMarker>` components": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452254535
+      }
+    ],
+    "14.4 Create `src/components/map/MapControls.tsx` — `<OrbitControls autoRotate={false} enablePan enableZoom enableRotate minDistance={3} maxDistance={25} makeDefault>`; `useCameraAnimation` hook using `useFrame` with `easeInOutCubic` completing within 2000 ms": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452255254
+      }
+    ],
+    "14.5 Write property test for camera stability without user input (Property 2)": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452255857
+      }
+    ],
+    "14.6 Create `src/components/map/IndiaMap.tsx` — R3F `<Canvas>` with bloom `EffectComposer`, `Suspense` loading indicator (`aria-live=\"polite\"`), `wheel` event stop-propagation only within canvas, `dynamic` import with `ssr: false`, `fallback={<WebGLFallback />}`": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452256433
+      }
+    ],
+    "15. Checkpoint — 3D map renders with GeoJSON, markers, labels, and bloom": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452256761
+      }
+    ],
+    "16.1 Create `src/components/discovery/MoodFilter.tsx` — renders exactly 10 mood tag buttons from `MOOD_TAGS`; toggles `filterStore.activeMoods`; WCAG AA colour contrast on active/inactive states": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452256928
+      }
+    ],
+    "16.2 Create `src/components/discovery/Search.tsx` — debounced (300 ms) free-text input; multi-entity search across name/city/state/district; \"No results found\" empty state; on select: animate camera via `mapStore`, open destination card": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452257118
+      }
+    ],
+    "16.3 Create `src/components/discovery/SurpriseMe.tsx` — uniform random selection from full ATTRACTIONS array; triggers camera animation to selected attraction; opens destination card on animation complete": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452257297
+      }
+    ],
+    "16.4 Write property test for Surprise Me selection (Property 11)": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452257456
+      }
+    ],
+    "16.5 Create `src/components/discovery/QuickList.tsx` — scrollable list of all attractions; filter controls for state, category, and mood; text search input; empty-state message; integrates with `filterStore`": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452257596
+      }
+    ],
+    "16.6 Write property test for Quick List filter correctness (Property 7)": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452257739
+      }
+    ],
+    "17.1 Create `src/components/cards/DestinationCard.tsx` — displays name, city, state, description, mood tag, hero image via `ImageWithFallback`; Explore / Plan Trip / Favorite actions; `useFavorites` integration; loading skeleton while image resolves": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452257918
+      }
+    ],
+    "17.2 Write property test for Destination Card required fields (Property 13)": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452258050
+      }
+    ],
+    "17.3 Create `src/components/cards/PopularAttractions.tsx` — floating right-side panel; fetches sorted list from `rankByPopularity`; displays name, primary photo, state, mood tag per item; click animates camera and opens card": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452258184
+      }
+    ],
+    "18. Checkpoint — discovery UI works end-to-end with 3D map": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452258639
+      }
+    ],
+    "19.1 Create `src/app/attraction/[id]/page.tsx` with `generateStaticParams` for all attraction IDs; `notFound()` for unknown IDs (HTTP 404)": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452259138
+      }
+    ],
+    "19.2 Create `src/components/detail/Gallery.tsx` — displays ≥4 images resolved via `/api/images/[id]`; `AttributionBlock` under each image; handles `insufficientImages` gracefully": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452259706
+      }
+    ],
+    "19.3 Write property test for gallery image count (Property 16) and attribution block presence (Property 18)": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452260189
+      }
+    ],
+    "19.4 Create `src/components/detail/Highlights.tsx` — renders attraction highlights and insider tips lists": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452260663
+      }
+    ],
+    "19.5 Create `src/components/detail/NearbyDestinations.tsx` — calls `findNearby` with 200 km radius, limit 5; renders as `DestinationCard` list": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452260817
+      }
+    ],
+    "19.6 Wire `src/app/attraction/[id]/page.tsx` — full-width hero image, Gallery, Highlights, InsiderTips, Itinerary tabs (2/3/4 day), BudgetEstimator default profile, NearbyDestinations, Favorite toggle": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452260981
+      }
+    ],
+    "19.7 Create `src/app/attraction/[id]/not-found.tsx` — \"Not Found\" page rendered on HTTP 404": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452261468
+      }
+    ],
+    "20.1 Create `src/components/planning/Itinerary.tsx` — day-by-day schedule display; tab switcher for 2/3/4 days; Solo/Family profile selector; renders morning/afternoon/evening slots": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452262019
+      }
+    ],
+    "20.2 Create `src/components/planning/Planner.tsx` — full Trip Planner UI: attraction selector (pre-populated from card), duration/profile controls, itinerary preview, save button via `useTripPlanner`": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452262473
+      }
+    ],
+    "20.3 Create `src/components/planning/BudgetEstimator.tsx` — form with starting city, days (1–30), travellers (1–20), accommodation tier, travel style, currency toggle; field-level validation messages; renders `BudgetBreakdown` table in INR (+ converted); calls `calculateBudget`": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452262821
+      }
+    ],
+    "20.4 Create `src/app/trip-planner/page.tsx` — trip management view listing all saved trips (view/delete); renders `Planner` component": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452263012
+      }
+    ],
+    "21.1 Create `src/app/favorites/page.tsx` — lists all favorited attractions as `DestinationCard` components; empty-state message when no favorites; uses `useFavorites`": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452263307
+      }
+    ],
+    "21.2 Create `src/app/account/page.tsx` — display name input, mood defaults multi-select; save via `useLocalProfile`; notice banner when localStorage unavailable": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452263631
+      }
+    ],
+    "22.1 Create `src/app/layout.tsx` — root layout with `NavBar`, global CSS, font imports (`next/font`), semantic `<html lang=\"en\">` and `<body>`": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452264119
+      }
+    ],
+    "22.2 Create `src/app/page.tsx` — homepage: hero section (100 vh) with `IndiaMap` + `PopularAttractions` panel + `MoodFilter` overlay + `SurpriseMe` button + `Search` overlay; below-fold sections: Featured Destinations, States Overview, Experiences, Planner CTA, Budget CTA, Footer; normal page scroll": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452264394
+      }
+    ],
+    "22.3 Create `src/app/quick-list/page.tsx` — full-page `QuickList` component": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452264625
+      }
+    ],
+    "22.4 Create footer component in `src/app/page.tsx` or dedicated `Footer.tsx` — About, Sources, Terms, Contact, image attribution notice": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452264812
+      }
+    ],
+    "23.1 Add mobile breakpoint styles — bottom sheets for Destination Cards and panels on small screens; touch-friendly map controls; Tailwind responsive utilities": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452265002
+      }
+    ],
+    "23.2 Integrate `framer-motion` for page transitions, card entrance animations, panel slides, and reduced-motion media query support (`prefers-reduced-motion`)": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452265169
+      }
+    ],
+    "24.1 Add `aria-label` or visible labels to all interactive controls outside the 3D canvas; verify semantic HTML (`nav`, `main`, `section`, `article`, `button`) throughout": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452265326
+      }
+    ],
+    "24.2 Verify WCAG 2.1 AA colour contrast for all text on dark backgrounds; add visible focus rings on all keyboard-focusable elements": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452265588
+      }
+    ],
+    "25.1 Create `scripts/validateAttractions.ts` — checks every attraction has ≥3 highlights, ≥2 tips, 8 itinerary combos (2/3/4 × Solo/Family), valid coordinates within India bounding box, non-empty `id`/`name`/`city`/`state`": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452265796
+      }
+    ],
+    "25.2 Create `scripts/validateBudgetData.ts` — checks every state in `ATTRACTIONS` has a matching entry in `STATE_COST_DATA` with all required numeric fields > 0": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452265994
+      }
+    ],
+    "26.1 Wrap `IndiaMap` in `dynamic(() => import(...), { ssr: false })` in homepage; add `next/image` `sizes` props tuned per breakpoint for all raster images": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452266159
+      }
+    ],
+    "26.2 Memoize GeoJSON in module scope; pre-simplify topology; verify homepage LCP ≤ 4 s on Lighthouse throttled 4G simulation": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452266324
+      }
+    ],
+    "27. Final checkpoint — all tests pass, accessibility checks complete, build succeeds": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452266519
+      }
+    ],
+    "1. Project scaffold and configuration": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789452803711
+      }
+    ],
+    "2. Core type definitions": [
+      {
+        "executionId": "8138f964-b4ab-40e5-9b90-daaebecd05f0",
+        "chatSessionId": "sess_5b6eae5d-7a9a-4d83-9770-eebdcf4c89e9",
+        "timestamp": 1789453516136
+      }
+    ]
+  }
+}

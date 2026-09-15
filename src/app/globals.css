@@ -1,0 +1,162 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Design tokens ─────────────────────────────────── */
+:root {
+  /* Backgrounds */
+  --bg-primary:   #0b0b0d;
+  --bg-secondary: #111114;
+  --bg-surface:   #17171b;
+  --bg-raised:    #1e1e23;
+  --bg-muted:     #2b2b2f;
+
+  /* Accents */
+  --gold:        #FFB86B;
+  --gold-bright: #FFC987;
+  --amber:       #FF9F43;
+  --coral:       #FF6B6B;
+
+  /* Text */
+  --text-primary:   #e8e0d4;
+  --text-secondary: rgba(232, 224, 212, 0.55);
+  --text-muted:     rgba(232, 224, 212, 0.30);
+
+  /* Borders */
+  --border-subtle: rgba(255, 255, 255, 0.06);
+  --border-gold:   rgba(255, 184, 107, 0.18);
+
+  /* Fonts */
+  --font-brand:  var(--font-cormorant), 'Cormorant Garamond', 'Bodoni Moda', Georgia, serif;
+  --font-serif:  var(--font-playfair), 'Playfair Display', 'Merriweather', Georgia, serif;
+  --font-sans:   var(--font-montserrat), 'Montserrat', 'Lato', system-ui, sans-serif;
+  --font-ui:     var(--font-montserrat), 'Montserrat', system-ui, sans-serif;
+}
+
+/* ─── Base ───────────────────────────────────────────── */
+html {
+  scroll-behavior: smooth;
+  /* CRITICAL: never overflow:hidden on html — kills page scroll */
+  overflow-x: hidden;
+}
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  min-height: 100dvh;
+  overflow-x: hidden;
+}
+
+/* ─── Typography classes ────────────────────────────── */
+.font-serif  { font-family: var(--font-serif); }
+.font-sans   { font-family: var(--font-sans); }
+.font-ui     { font-family: var(--font-ui); }
+
+/* Headings use serif by default */
+h1, h2, h3 {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+h4, h5, h6 {
+  font-family: var(--font-sans);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+
+/* ─── Scrollbar ─────────────────────────────────────── */
+::-webkit-scrollbar          { width: 3px; height: 3px; }
+::-webkit-scrollbar-track    { background: transparent; }
+::-webkit-scrollbar-thumb    { background: rgba(255,184,107,0.2); border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(255,184,107,0.4); }
+
+/* ─── Focus rings ───────────────────────────────────── */
+:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* ─── Gold gradient text utility ───────────────────── */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #FFB86B 0%, #FF9F43 60%, #FF6B6B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ─── Glass surface utility ─────────────────────────── */
+.glass {
+  background: rgba(17, 17, 20, 0.72);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid var(--border-gold);
+}
+
+.glass-dark {
+  background: rgba(11, 11, 13, 0.80);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid var(--border-subtle);
+}
+
+/* ─── Animations ────────────────────────────────────── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes slideRight {
+  from { opacity: 0; transform: translateX(20px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes pulseGold {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(255, 184, 107, 0); }
+  50%       { box-shadow: 0 0 12px 3px rgba(255, 184, 107, 0.2); }
+}
+
+.animate-fade-up    { animation: fadeUp 0.5s ease-out forwards; }
+.animate-fade-in    { animation: fadeIn 0.4s ease-out forwards; }
+.animate-slide-right { animation: slideRight 0.4s ease-out forwards; }
+.animate-pulse-gold { animation: pulseGold 2.5s ease-in-out infinite; }
+
+/* Stagger children */
+.stagger > *:nth-child(1) { animation-delay: 0ms; }
+.stagger > *:nth-child(2) { animation-delay: 80ms; }
+.stagger > *:nth-child(3) { animation-delay: 160ms; }
+.stagger > *:nth-child(4) { animation-delay: 240ms; }
+.stagger > *:nth-child(5) { animation-delay: 320ms; }
+.stagger > *:nth-child(6) { animation-delay: 400ms; }
+
+/* ─── Reduced motion ────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ─── Utilities ─────────────────────────────────────── */
+@layer utilities {
+  .text-balance { text-wrap: balance; }
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
